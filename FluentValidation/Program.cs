@@ -1,6 +1,8 @@
 
 using Core.Repositories;
+using FluentValidation.AspNetCore;
 using FluentValidation.Helpers;
+using FluentValidation.Validations;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Repository.Data;
@@ -22,6 +24,10 @@ namespace FluentValidation
             });
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddAutoMapper( typeof(MappingProfile));
+
+
+            builder.Services.AddFluentValidation();
+            builder.Services.AddValidatorsFromAssemblyContaining<BreakfastRequestValidator>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

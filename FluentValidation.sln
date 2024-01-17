@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation", "FluentValidation\FluentValidation.csproj", "{EE0E6833-F6AB-4DE5-9AEB-9C57A4A287D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidationsVSAttributeValidations", "FluentValidation\FluentValidationsVSAttributeValidations.csproj", "{EE0E6833-F6AB-4DE5-9AEB-9C57A4A287D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{A451E0E3-33D5-4B82-B10D-3C88833E4D7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{A451E0E3-33D5-4B82-B10D-3C88833E4D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{5830953B-E218-4AEC-8515-1BE39493CE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{5830953B-E218-4AEC-8515-1BE39493CE39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{216783C3-5E55-4DEB-BC50-DCA226BE0915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{216783C3-5E55-4DEB-BC50-DCA226BE0915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
